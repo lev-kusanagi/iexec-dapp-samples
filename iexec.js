@@ -1,4 +1,4 @@
 module.exports = {
-  name: 'Echo',
-  appName: 'echo.sh',
+  name: 'Ls',
+  appName: 'ls.sh',
 };
