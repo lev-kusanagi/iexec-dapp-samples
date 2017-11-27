@@ -1,11 +1,11 @@
 pragma solidity ^0.4.11;
 import "iexec-oracle-contract/contracts/IexecOracleAPI.sol";
-contract Echo is IexecOracleAPI{
+contract Ls is IexecOracleAPI{
 
   uint public constant DAPP_PRICE = 0;
   string public constant DAPP_NAME = "ls";
 
-  function Echo (address _iexecOracleAddress) IexecOracleAPI(_iexecOracleAddress,DAPP_PRICE,DAPP_NAME){
+  function Ls (address _iexecOracleAddress) IexecOracleAPI(_iexecOracleAddress,DAPP_PRICE,DAPP_NAME){
 
   }
 
