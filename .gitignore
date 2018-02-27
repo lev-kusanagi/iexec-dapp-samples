@@ -30,3 +30,17 @@ wallet.json
 miguel/wallet.json
 /miguel/account.json
 /miguel/contracts/Miguel.sol~
+/miguel/build/contracts/ERC20.json
+/miguel/build/contracts/IexecLib.json
+/miguel/build/contracts/IexecOracle.json
+/miguel/build/contracts/IexecOracleAPI.json
+/miguel/build/contracts/IexecOracleEscrow.json
+/miguel/build/contracts/Miguel.json
+/miguel/build/contracts/Ownable.json
+/miguel/build/*
+/miguel/stderr.txt
+/miguel/stdout.txt
+/miguel/unloaderr.txt
+/miguel/unloadout.txt
+/miguel/0x7a20f497fefcab3c5e0a60131f9a33555af45b63a6af9f60b2b226fe869ff131.zip
+*.zip
