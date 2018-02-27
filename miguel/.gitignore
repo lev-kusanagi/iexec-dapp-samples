@@ -26,7 +26,3 @@ node_modules
 
 # Optional REPL history
 .node_repl_history
-wallet.json
-miguel/wallet.json
-/miguel/account.json
-/miguel/contracts/Miguel.sol~
