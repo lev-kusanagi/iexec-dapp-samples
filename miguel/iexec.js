@@ -1,10 +1,10 @@
 module.exports = {
-  name: 'MyContract',
+  name: 'Miguel',
   app: {
     type: 'DOCKER',
-    envvars: 'XWDOCKERIMAGE=docker-image-name',
+    envvars: 'XWDOCKERIMAGE=javiermares/miguel',
   },
   work: {
-    cmdline: 'cli arguments',
+    cmdline: 'python3 /examples/nlp/dime_algo.py',
   }
 };
