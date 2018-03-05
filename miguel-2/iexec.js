@@ -1,5 +1,5 @@
 module.exports = {
-  name: 'Miguel-2',
+  name: 'miguel-2',
   app: {
     type: 'DOCKER',
     envvars: 'XWDOCKERIMAGE=javiermares/miguel-2',
