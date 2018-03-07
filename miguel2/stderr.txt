@@ -1,5 +1,5 @@
-Unable to find image 'javiermares/miguel:latest' locally
-latest: Pulling from javiermares/miguel
+Unable to find image 'javiermares/miguel-2:latest' locally
+latest: Pulling from javiermares/miguel-2
 1be7f2b886e8: Already exists
 6fbc4a21b806: Already exists
 c71a6f8e1378: Already exists
@@ -17,43 +17,41 @@ afc9491ecb46: Pulling fs layer
 2ff95a5c6cc6: Pulling fs layer
 7861bcb0222f: Pulling fs layer
 f7fdb66865e4: Pulling fs layer
-ea59cdb437ce: Pulling fs layer
+45df047ca0e6: Pulling fs layer
+2ef27625928f: Waiting
+9106d94ed3a5: Waiting
+596047c09b80: Waiting
+5c668cba641f: Waiting
 55269e25dc5f: Waiting
 afc9491ecb46: Waiting
 2ff95a5c6cc6: Waiting
 7861bcb0222f: Waiting
 f7fdb66865e4: Waiting
-ea59cdb437ce: Waiting
-596047c09b80: Waiting
-2ef27625928f: Waiting
-5c668cba641f: Waiting
-9106d94ed3a5: Waiting
+45df047ca0e6: Waiting
 d0e29455565d: Verifying Checksum
 d0e29455565d: Download complete
 2ef27625928f: Verifying Checksum
 2ef27625928f: Download complete
 9106d94ed3a5: Verifying Checksum
 9106d94ed3a5: Download complete
-596047c09b80: Verifying Checksum
 596047c09b80: Download complete
 5c668cba641f: Verifying Checksum
 5c668cba641f: Download complete
 7a197f845d1e: Verifying Checksum
 7a197f845d1e: Download complete
-afc9491ecb46: Verifying Checksum
 afc9491ecb46: Download complete
 2ff95a5c6cc6: Verifying Checksum
 2ff95a5c6cc6: Download complete
-55269e25dc5f: Verifying Checksum
-55269e25dc5f: Download complete
-7861bcb0222f: Verifying Checksum
-7861bcb0222f: Download complete
-f7fdb66865e4: Verifying Checksum
-f7fdb66865e4: Download complete
 1fba4d333f01: Verifying Checksum
 1fba4d333f01: Download complete
-ea59cdb437ce: Verifying Checksum
-ea59cdb437ce: Download complete
+7861bcb0222f: Verifying Checksum
+7861bcb0222f: Download complete
+55269e25dc5f: Verifying Checksum
+55269e25dc5f: Download complete
+f7fdb66865e4: Verifying Checksum
+f7fdb66865e4: Download complete
+45df047ca0e6: Verifying Checksum
+45df047ca0e6: Download complete
 1fba4d333f01: Pull complete
 d0e29455565d: Pull complete
 7a197f845d1e: Pull complete
@@ -66,14 +64,14 @@ afc9491ecb46: Pull complete
 2ff95a5c6cc6: Pull complete
 7861bcb0222f: Pull complete
 f7fdb66865e4: Pull complete
-ea59cdb437ce: Pull complete
-Digest: sha256:9f4dcf7928a49b57fd9dc63b6625cf685f8a7515fd9955b85252a64a861bb95d
-Status: Downloaded newer image for javiermares/miguel:latest
+45df047ca0e6: Pull complete
+Digest: sha256:7912e4ffdd59ce8466fc429b1c95fff8d30ba430f2f86702f933fb093ad8a681
+Status: Downloaded newer image for javiermares/miguel-2:latest
 /usr/local/lib/python3.5/dist-packages/h5py/__init__.py:36: FutureWarning: Conversion of the second argument of issubdtype from `float` to `np.floating` is deprecated. In future, it will be treated as `np.float64 == np.dtype(float).type`.
   from ._conv import register_converters as _register_converters
 WARNING:tensorflow:From /usr/local/lib/python3.5/dist-packages/tflearn/objectives.py:66: calling reduce_sum (from tensorflow.python.ops.math_ops) with keep_dims is deprecated and will be removed in a future version.
 Instructions for updating:
 keep_dims is deprecated, use keepdims instead
-2018-02-27 05:43:44.933761: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
+2018-03-07 21:25:07.344846: I tensorflow/core/platform/cpu_feature_guard.cc:140] Your CPU supports instructions that this TensorFlow binary was not compiled to use: SSE4.1 SSE4.2 AVX AVX2 FMA
 /usr/local/lib/python3.5/dist-packages/tflearn/models/generator.py:337: RuntimeWarning: divide by zero encountered in log
   a = np.log(a) / temperature
