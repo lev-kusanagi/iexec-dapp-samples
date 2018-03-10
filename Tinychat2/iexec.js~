@@ -1,0 +1,10 @@
+module.exports = {
+  name: 'tinychat2',
+  app: {
+    type: 'DOCKER',
+    envvars: 'XWDOCKERIMAGE=javiermares/tiny-chat',
+  },
+  work: {
+    cmdline: 'cli arguments',
+  }
+};
