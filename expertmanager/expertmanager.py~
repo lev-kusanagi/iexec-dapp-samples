@@ -1,0 +1,10 @@
+# This script takes user input and triages the query to one of two or
+# more dapp agents on the iExec cloud.
+
+import argparse
+
+
+parser = argparse.ArgumentParser()
+parser.add_argument('input_words', metavar='N', type=str, nargs='+')
+input = parser.parse_args()
+input_string = ' '.join(input.input_words)
