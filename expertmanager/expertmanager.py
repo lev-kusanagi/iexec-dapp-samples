@@ -10,7 +10,7 @@ input = parser.parse_args()
 input_string = ' '.join(input.input_words)
 
 command1 = "iexec submit 'python3 /examples/nlp/dime_algo.py' --dapp 0x25412143e4c5392dea108c2834008985507410f2".split()
-command2 = "iexec submit 'python oneturn.py how are you' --dapp 0x2e785496d4f66BF1e2dDFba1a7755eb2EbF75d2C".split()
+command2 = ("iexec submit 'python oneturn.py " + input_string  + "' --dapp 0x2e785496d4f66BF1e2dDFba1a7755eb2EbF75d2C").split()
 
 # Pseudocode
 if input_string == 'En que piensa Cervantes?':
